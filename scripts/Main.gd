@@ -1,3 +1,5 @@
+## Main battle scene root — creates all managers, wires signals, applies dynamic proportional layout.
+## Layout: AI Hand (5-12%), AI Battlefield (14-37%), Player Battlefield (53-76%), Player Hand (78-92%).
 extends Node2D
 
 @onready var player_hand_container: HBoxContainer = %PlayerHandContainer

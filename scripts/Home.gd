@@ -1,3 +1,5 @@
+## Home screen — main menu with Start, Select, Shop, Settings, Quit buttons.
+## Applies saved resolution on startup. Dynamic centered layout.
 extends Node2D
 
 @onready var start_button: Button = %StartButton

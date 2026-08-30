@@ -1,3 +1,5 @@
+## Visual layer — creates card visuals, refreshes hand/battlefield containers,
+## updates info label, handles game-over dialog. All UI is code-generated (no .tscn instances).
 class_name UIManager
 extends Node
 

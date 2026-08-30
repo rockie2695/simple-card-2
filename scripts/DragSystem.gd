@@ -1,3 +1,7 @@
+## Interactive card with drag-and-drop and hover tooltip.
+## Extends PanelContainer. Reparents to CanvasLayer during drag (layer 100).
+## Tooltip shows full-size card on CanvasLayer (layer 50) with smart quadrant positioning.
+## Uses _input() for all drag phases (MCP synthetic events don't trigger _gui_input).
 class_name DraggableCard
 extends PanelContainer
 

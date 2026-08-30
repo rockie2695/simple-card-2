@@ -1,3 +1,6 @@
+## Central configuration for all tunable values.
+## Change values here → entire game updates.
+## No runtime logic — constants only.
 class_name GameConfig
 ## Central configuration for all tunable values.
 ## Change values here → entire game updates.

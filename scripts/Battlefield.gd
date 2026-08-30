@@ -1,3 +1,6 @@
+## Manages player/ai card arrays on the battlefield.
+## Calculates total PW, applies Musketeer Link and Aura effects on every recalculate.
+## Signals: pw_changed(side, total_pw), card_destroyed(side, card, index)
 class_name Battlefield
 extends RefCounted
 

@@ -1,3 +1,6 @@
+## Turn flow controller — manages card play (1/turn), win check (20 PW),
+## AI turn (random card), and all card effects (on_enter, timer, aura, musketeer_link).
+## Signals: turn_started(side), turn_ended(side), game_over(winner, reason), card_played(side, card), effect_triggered(side, card, effect)
 class_name TurnManager
 extends RefCounted
 

@@ -1,3 +1,5 @@
+## Settings page — resolution picker (4 options), fullscreen toggle.
+## Saves to user://settings.cfg. Loads on Home screen startup.
 extends Control
 
 const SETTINGS_FILE = "user://settings.cfg"

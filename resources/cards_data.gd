@@ -1,3 +1,5 @@
+## Static card database — 14 unique cards + filler card generator.
+## Each card is a Dictionary with: id, name, base_pw, keywords, effect_type, effect_params, description.
 class_name CardsData
 extends RefCounted
 

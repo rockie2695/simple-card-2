@@ -1,3 +1,5 @@
+## Builds 15-card decks from CardsData.
+## Uses generate_filler_cards() when fewer than 15 unique cards exist.
 class_name DeckBuilder
 extends RefCounted
 

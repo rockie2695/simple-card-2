@@ -1,3 +1,7 @@
+## One-shot deferred scaling helper.
+## Waits 1 process_frame for HBoxContainer layout to settle,
+## then sets parent to GameConfig.HAND_SCALE and self-destructs.
+## Required because HBoxContainer resets child scale on add_child.
 extends Node
 
 ## Adds itself as a child of a Control node, waits one frame for

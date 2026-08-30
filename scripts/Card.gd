@@ -1,3 +1,5 @@
+## Single card instance — pure data model, no scene tree dependency.
+## PW = base_pw + temp_pw + permanent_pw (temp resets on recalculate, permanent persists).
 class_name Card
 extends RefCounted
 

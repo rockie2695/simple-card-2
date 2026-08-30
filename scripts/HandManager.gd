@@ -1,3 +1,5 @@
+## Manages hands and decks for both player and AI sides.
+## Handles draw, remove, deck-empty signals.
 class_name HandManager
 extends RefCounted
 
